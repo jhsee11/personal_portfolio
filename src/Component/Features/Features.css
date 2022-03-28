@@ -1,0 +1,74 @@
+.features .wrapper {
+  position: relative;
+}
+
+.features .content {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin-top: 10px;
+  transform: translateX(0px);
+  transition: all 1s ease;
+}
+
+.features .sliderArrow {
+  width: 50px;
+  height: 30%;
+  background-color: rgb(22, 22, 22, 0.5);
+  color: white;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+.features .box {
+  width: 400px;
+  height: 300px;
+  background-color: #ff014f;
+  color: black;
+  margin-left: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.features .left {
+  left: 0;
+}
+
+.features .right {
+  right: 0;
+}
+
+.features .box .h2 {
+  margin: 20px 0 20px 0;
+}
+
+.features .box p {
+  word-spacing: 2px;
+  transition: 0.5s;
+}
+
+.features .box i {
+  font-size: 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.features .box li {
+  list-style: square;
+}
+
+.features .box:hover p {
+  color: white;
+}
+
+.features .box:hover i {
+  color: white;
+  opacity: 1;
+}
