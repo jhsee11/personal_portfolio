@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <section className="relative m-8" id="home">
-        <div className="max-w-full flex mt-16 mr-[300px]">
+        <div className="max-w-full flex mt-16 mr-[80px]">
           <div className="w-full mt-60 ml-6">
             <h3 className="font-thin tracking-widest">WELCOME TO MY WORLD</h3>
             <h1 className="text-6xl font-bold text-prussian-blue">
@@ -76,26 +76,24 @@ const Home = () => {
        
               */}
           </div>
-          <div className="w-[60%] mx-auto">
+          <div className="w-[60%] relative ml-20">
             <div className="mt-[70px]">
               <img
-                className="hidden lg:block lg:w-[400px] lg:h-[400px] object-cover rounded-full"
+                className="hidden xl:block lg:w-[320px] lg:h-[420px] rounded-[30px]"
                 src="./seejiahao.jpg"
                 alt="personal_img"
               />
             </div>
             <div className="mt-14">
-              <h4 className="hidden lg:block font-thin tracking-widest">
+              <h4 className="hidden xl:block font-thin tracking-widest">
                 FAVOURITE QUOTE
               </h4>
               <div
-                className="hidden lg:block flex justify-items-end mt-3 py-5 px-6 bg-powder-blue rounded-md shadow-md hover:bg-imperial-red
+                className="hidden xl:block w-max flex justify-items-end mt-3 py-5 px-6 bg-powder-blue rounded-md shadow-md hover:bg-imperial-red
                 hover:text-white ease-in duration-200"
               >
-                <span className="tracking-wide ">
-                  You dont need to be great to start,but you need to start to be
-                  great
-                </span>
+                You dont need to be great to start, but you need to start to be
+                great
               </div>
             </div>
           </div>

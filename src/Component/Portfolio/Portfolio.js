@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className="max-w-[95%] mt-16 m-auto">
         <div className="m-12 text-center block">
           <h4 className="text-imperial-red tracking-wider font-normal text-base">
-            VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
+            VISIT MY PORTFOLIO
           </h4>
           <h1 className="text-5xl text-prussian-blue">My Portfolio</h1>
         </div>

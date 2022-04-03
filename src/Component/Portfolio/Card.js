@@ -10,7 +10,7 @@ const Card = (props) => {
   return (
     <div>
       <div
-        className="w-[400px] h-[300px] my-3 p-6 bg-powder-blue text-black rounded-md cursor-pointer ease-in duration-200 hover:-translate-y-3 hover:rounded-2xl 
+        className="mx-auto w-[400px] h-[300px] my-3 p-6 bg-powder-blue text-black rounded-md cursor-pointer ease-in duration-200 hover:-translate-y-3 hover:rounded-2xl 
     hover:bg-prussian-blue hover:text-white"
       >
         <div className="h-24 overflow-hidden duration-500 ">
@@ -52,7 +52,7 @@ const Card = (props) => {
 
       {/*------POPUP MODAL */}
       {modal && (
-        <div className="w-screen h-screen bg-white fixed top-0 right-0 bottom-0 left-0 z-[60]">
+        <div className="overflow-auto mt-20 mb-20 w-screen bg-white fixed top-0 right-0 bottom-0 left-0 z-[60]">
           <div
             onClick={toggleModal}
             className="w-screen h-screen bg-white position fixed top-0 right-0 bottom-0 left-0 z-[60]"

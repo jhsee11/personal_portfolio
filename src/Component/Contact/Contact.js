@@ -50,35 +50,33 @@ const Contact = () => {
             <h1 className="text-5xl text-prussian-blue">Contact With Me</h1>
           </div>
 
-          <div className="flex justify-around flex-col lg:flex-row">
-            <div className="w-[700px]">
-              <div className="w-6/12 h-[90%] p-10 ml-40 mt-6 rounded-md text-black shadow-md shadow-celadon-blue bg-white ">
-                <div className="img">
-                  <img src={contact1} alt="" />
-                </div>
-                <div className="details">
-                  <h1>Jasper See</h1>
-                  <p>Sr Software Engineer</p>
-                  <br />
-                  <p>Phone: +65 98686107</p>
-                  <p>Email: jhsee11@gmail.com</p> <br />
-                  <span>FIND WITH ME</span>
-                  <div className="button f_flex">
-                    <button className="btn_shadow">
-                      <i className="fab fa-facebook-f"></i>
-                    </button>
-                    <button className="btn_shadow">
-                      <i className="fab fa-instagram"></i>
-                    </button>
-                    <button className="btn_shadow">
-                      <i className="fab fa-twitter"></i>
-                    </button>
-                  </div>
+          <div className="flex flex-col justify-items-center lg:flex-row">
+            <div className="w-4/12 p-10 h-[550px] mx-auto mb-4 mt-6 rounded-md text-black shadow-md shadow-celadon-blue bg-white ">
+              <div className="img">
+                <img src={contact1} alt="" />
+              </div>
+              <div className="details">
+                <h1>Jasper See</h1>
+                <p>Sr Software Engineer</p>
+                <br />
+                <p>Phone: +65 98686107</p>
+                <p>Email: jhsee11@gmail.com</p> <br />
+                <span>FIND WITH ME</span>
+                <div className="button f_flex">
+                  <button className="btn_shadow">
+                    <i className="fab fa-facebook-f"></i>
+                  </button>
+                  <button className="btn_shadow">
+                    <i className="fab fa-instagram"></i>
+                  </button>
+                  <button className="btn_shadow">
+                    <i className="fab fa-twitter"></i>
+                  </button>
                 </div>
               </div>
             </div>
 
-            <div className="w-6/12 h-[90%] p-10 ml-40 lg:ml-30 mt-6 mb-4 rounded-md text-black shadow-md shadow-celadon-blue bg-white">
+            <div className="w-[80%] overflow-auto mx-auto lg:w-6/12 h-[550px] p-10 ml-40 lg:ml-30 mt-6 mb-4 rounded-md text-black shadow-md shadow-celadon-blue bg-white">
               <form onSubmit={formSubmit}>
                 <div className="flex justify-between">
                   <div className="text-base w-2/5 rounded-sm">

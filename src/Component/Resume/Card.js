@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <>
       <div
-        className="w-6/12 p-10 mx-auto mt-6 rounded-md text-black shadow-md shadow-celadon-blue bg-white hover:bg-prussian-blue
+        className="w-[90%] lg:w-6/12 p-10 mx-auto mt-6 rounded-md text-black shadow-md shadow-celadon-blue bg-white hover:bg-prussian-blue
                  hover:text-white hover:scale-[1.03] ease-in duration-200"
       >
         <div className="title_content flex justify-between">

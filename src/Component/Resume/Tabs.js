@@ -40,7 +40,7 @@ const Tabs = ({ color }) => {
             className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
             role="tablist"
           >
-            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
+            <li className="mb-2 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
@@ -60,7 +60,7 @@ const Tabs = ({ color }) => {
                 Education
               </a>
             </li>
-            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
+            <li className="mb-4 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
@@ -79,7 +79,7 @@ const Tabs = ({ color }) => {
                 <i className="fas fa-cog text-base mr-1"></i> Job Experience
               </a>
             </li>
-            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
+            <li className="mb-4 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
@@ -99,7 +99,7 @@ const Tabs = ({ color }) => {
                 Skills
               </a>
             </li>
-            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
+            <li className="mb-4 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
@@ -177,7 +177,7 @@ const Tabs = ({ color }) => {
                   </div>
                 </div>
                 <div className={openTab === 3 ? 'block' : 'hidden'} id="link3">
-                  <div className="shadow-md shadow-celadon-blue mt-6 mb-6 p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
+                  <div className="overflow-hidden shadow-md shadow-celadon-blue mt-6 mb-6 p-3 lg:w-2/6 w-[80%] mx-auto bg-white rounded-lg shadow-lg">
                     <ul className="divide-y-2">
                       {ProgrammingSkills.map((skill) => (
                         <li
@@ -191,7 +191,7 @@ const Tabs = ({ color }) => {
                   </div>
                 </div>
                 <div className={openTab === 4 ? 'block' : 'hidden'} id="link4">
-                  <div className="shadow-md shadow-celadon-blue mt-6 mb-6  p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
+                  <div className="overflow-hidden shadow-md shadow-celadon-blue mt-6 mb-6 p-3 lg:w-2/6 w-[80%] mx-auto bg-white rounded-lg shadow-lg">
                     <ul className="divide-y-2">
                       {Interests.map((interest) => (
                         <li
@@ -205,7 +205,7 @@ const Tabs = ({ color }) => {
                   </div>
                 </div>
                 <div className={openTab === 5 ? 'block' : 'hidden'} id="link4">
-                  <div className="shadow-md shadow-celadon-blue mt-6 mb-6 p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
+                  <div className="overflow-hidden shadow-md shadow-celadon-blue mt-6 mb-6 p-3 lg:w-2/6 w-[80%] mx-auto bg-white rounded-lg shadow-lg">
                     <ul className="divide-y-2">
                       {Languages.map((language) => (
                         <li

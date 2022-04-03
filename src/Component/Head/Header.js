@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from '../pic/logo.png';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
@@ -42,7 +41,7 @@ const Header = () => {
   let Links = [
     { name: 'About Me', link: '#home' },
     { name: 'Resume', link: '#resume' },
-    { name: 'Features', link: '#features' },
+    { name: 'Experiences', link: '#features' },
     { name: 'Portfolio', link: '#portfolio' },
     { name: 'Contact', link: '#contact' },
   ];

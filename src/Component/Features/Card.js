@@ -4,7 +4,7 @@ const Card = (props) => {
   const desc = props.desc.split(';');
   return (
     <div
-      className="w-[410px] h-[320px] ml-0 p-6 bg-powder-blue text-black overflow-hidden rounded-md cursor-pointer ease-in duration-200 hover:scale-[1.01] hover:rounded-2xl 
+      className="overflow-clip w-[300px] h-[300px] sm:w-[410px] sm:h-[320px] mx-auto mb-8 p-6 bg-powder-blue text-black ounded-md cursor-pointer ease-in duration-200 hover:scale-[1.01] hover:rounded-2xl 
     hover:bg-prussian-blue hover:text-white"
     >
       <img className="w-12 h-12" src={props.image} alt="" />

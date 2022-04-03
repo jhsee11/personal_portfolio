@@ -1,10 +1,6 @@
 import { useRef, useState } from 'react';
 import Card from './Card';
 import data from './FeatureApi';
-import {
-  ArrowBackIosOutlined,
-  ArrowForwardIosOutlined,
-} from '@material-ui/icons';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -29,18 +25,20 @@ const Features = () => {
         },
       },
       {
-        breakpoint: 900,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 2,
           initialSlide: 2,
+          dots: true,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 400,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
         },
       },
     ],
@@ -54,12 +52,12 @@ const Features = () => {
           <div className="max-w-[95%] m-auto">
             <div className="m-12 text-center block">
               <h4 className="text-imperial-red tracking-wider font-normal text-base">
-                Projects Experiences
+                Project Experiences
               </h4>
               <h1 className="text-5xl text-prussian-blue">What I Do</h1>
             </div>
 
-            <div className="m-auto w-10/12">
+            <div className="mx-auto w-10/12">
               <Slider {...sliderSettings}>
                 {data.map((val, index) => {
                   return (
