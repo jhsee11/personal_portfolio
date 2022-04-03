@@ -8,15 +8,15 @@ const Home = () => {
   return (
     <>
       <section className="relative m-8" id="home">
-        <div className="max-w-7xl margin flex mt-20">
-          <div className="w-2/3  mt-80">
+        <div className="max-w-full flex mt-16 mr-[300px]">
+          <div className="w-full mt-60 ml-6">
             <h3 className="font-thin tracking-widest">WELCOME TO MY WORLD</h3>
-            <h1 className="text-6xl font-bold text-gray-700">
-              Hi, I’m <span className="text-flame">Jasper</span>
+            <h1 className="text-6xl font-bold text-prussian-blue">
+              Hi, I’m <span className="text-imperial-red">Jasper</span>
             </h1>
-            <h2 className="text-6xl text-flame font-bold">
+            <h2 className="text-6xl text-imperial-red font-bold">
               a
-              <span className="text-black">
+              <span className="text-prussian-blue">
                 <Typewriter
                   words={[' Self Taught Programmer', ' Sr Software Engineer.']}
                   loop
@@ -29,28 +29,38 @@ const Home = () => {
               </span>
             </h2>
 
-            <p> </p>
-
-            <div className="mt-20 flex justify-between">
-              <div className="col_1">
+            <div className="mt-[96px] flex justify-between">
+              <div className="mt-14">
                 <h4 className="font-thin tracking-widest">FIND WITH ME</h4>
-                <div className="border-none outline-none bg-inherit">
-                  <button
-                    className="mt-3 py-5 px-6 rounded-md bg-blue-200 shadow-md shadow-white
-                  hover:bg-tumbleweed hover:translate-y-1"
+                <span className="border-none outline-none bg-inherit">
+                  <a
+                    href="https://linkedin.com/in/jia-hao-see-165355100"
+                    target="_blank"
                   >
-                    <i class="fab fa-linkedin-in"></i>
-                  </button>
-                </div>
+                    <button
+                      className="mt-3 mr-10 py-3 px-4 rounded-md bg-powder-blue shadow-md shadow-white
+                      hover:translate-y-1"
+                    >
+                      <i className="text-3xl fa-brands fa-linkedin"> </i>
+                    </button>
+                  </a>
+                </span>
+                <span className="mr-10 border-none outline-none bg-inherit">
+                  <a
+                    href="https://mail.google.com/mail/u/?authuser=jhsee11@gmail.com"
+                    target="_blank"
+                  >
+                    <button
+                      className="mt-3 py-3 px-4 rounded-md bg-powder-blue shadow-md shadow-white
+                 hover:translate-y-1"
+                    >
+                      <i className="text-3xl fa-solid fa-envelope"> </i>
+                    </button>
+                  </a>
+                </span>
               </div>
-              <div className="col_1">
-                <h4 className="font-thin tracking-widest">BEST SKILL ON</h4>
-                <button
-                  className="mt-3 py-5 px-6 rounded-md text-black shadow-md shadow-white bg-white hover:bg-tumbleweed
-                 hover:-translate-y-3 ease-in duration-200"
-                >
-                  <img className="w-10 h-10" src={skill1} alt="" />
-                </button>
+            </div>
+            {/*}
                 <button
                   className="mt-3 py-5 px-6 rounded-md text-black shadow-md shadow-white bg-white hover:bg-tumbleweed
                  hover:-translate-y-3 ease-in duration-200"
@@ -63,12 +73,30 @@ const Home = () => {
                 >
                   <img className="w-10 h-10" src={skill3} alt="" />
                 </button>
-              </div>
-            </div>
+       
+              */}
           </div>
-          <div className="right">
-            <div className="right_img">
-              <img src="" alt="" />
+          <div className="w-[60%] mx-auto">
+            <div className="mt-[70px]">
+              <img
+                className="hidden lg:block lg:w-[400px] lg:h-[400px] object-cover rounded-full"
+                src="./seejiahao.jpg"
+                alt="personal_img"
+              />
+            </div>
+            <div className="mt-14">
+              <h4 className="hidden lg:block font-thin tracking-widest">
+                FAVOURITE QUOTE
+              </h4>
+              <div
+                className="hidden lg:block flex justify-items-end mt-3 py-5 px-6 bg-powder-blue rounded-md shadow-md hover:bg-imperial-red
+                hover:text-white ease-in duration-200"
+              >
+                <span className="tracking-wide ">
+                  You dont need to be great to start,but you need to start to be
+                  great
+                </span>
+              </div>
             </div>
           </div>
         </div>

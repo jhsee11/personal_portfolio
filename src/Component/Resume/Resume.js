@@ -20,19 +20,20 @@ const Resume = () => {
   return (
     <>
       <section className="Resume" id="resume">
-        <div className="max-w-full mt-20 ">
-          <div className="mt-12 mb-12 text-center block">
-            <h4 className="text-flame tracking-wider font-normal text-base">
+        <br />
+        <div className="max-w-full mt-16 ">
+          <div className="relative mb-12 text-center block">
+            <h4 className="text-imperial-red tracking-wider font-normal text-base">
               EXPERIENCES
             </h4>
-            <h1 className="text-5xl">My Resume</h1>
+            <h1 className="text-5xl text-prussian-blue">My Resume</h1>
           </div>
         </div>
 
         <div>
           <div className="relative mt-10">
             <div className="relative h-5/6 m-auto max-w-full w-10/12">
-              <Tabs color="flame" />
+              <Tabs color="prussian-blue" />
             </div>
           </div>
         </div>

@@ -10,20 +10,25 @@ const Card = (props) => {
   return (
     <div>
       <div
-        className="w-[460px] h-[320px] my-3 p-6 bg-turquoise text-black rounded-md cursor-pointer ease-in duration-200 hover:-translate-y-3 hover:rounded-2xl 
-    hover:bg-flame hover:text-white"
+        className="w-[400px] h-[300px] my-3 p-6 bg-powder-blue text-black rounded-md cursor-pointer ease-in duration-200 hover:-translate-y-3 hover:rounded-2xl 
+    hover:bg-prussian-blue hover:text-white"
       >
-        <div className="h-[100px] overflow-hidden duration-500 ">
+        <div className="h-24 overflow-hidden duration-500 ">
+          {/*
           <img
-            className="w-full rounded-lg duration-500 hover:scale-[1.1]"
-            src={props.imagez}
+            className=" w-18 h-20 object-left block object-contain rounded-lg duration-500 hover:scale-[1.1]"
+            src={props.image}
             alt="img"
             onClick={toggleModal}
           />
+          */}
+          <i>
+            <i className="text-6xl fa-brands fa-app-store"></i>
+          </i>
         </div>
         <div className="mt-5 mb-6 uppercase flex justify-between">
           <span
-            className="text-white text-base tracking-widest font-normal"
+            className="text-celadon-blue text-base tracking-widest font-normal"
             onClick={toggleModal}
           >
             {props.category}
@@ -52,7 +57,7 @@ const Card = (props) => {
             onClick={toggleModal}
             className="w-screen h-screen bg-white position fixed top-0 right-0 bottom-0 left-0 z-[60]"
           ></div>
-          <div className="position absolute z-[100] top-[12%] left-[8%] leading-6 min-w-[60%] max-w-[85%] p-12 bg-turquoise shadow-md flex justify-between rounded-lg">
+          <div className="position absolute z-[100] top-[12%] left-[8%] leading-6 min-w-[60%] max-w-[85%] p-12 bg-powder-blue shadow-md flex justify-between rounded-lg">
             <div className="modal-img p-0">
               <img src={props.image} alt="" />
             </div>
@@ -66,16 +71,15 @@ const Card = (props) => {
                 deleniti quaerat deserunt aliquid hic.
               </p>
               <div className="flex mt-10">
+                {/*}
                 <button
                   className="py-3 px-6 mr-6 text-flame rounded-md cursor-pointer duration-500 ease-in shadow-md bg-white hover:bg-tumbleweed hover:text-white
                 hover:-translate-y-1"
                 >
                   LIKE THIS <i className="ml-2 far fa-thumbs-up"></i>
                 </button>
-                <button
-                  className="py-3 px-6 mr-6 text-flame rounded-md cursor-pointer duration-500 ease-in shadow-md bg-white hover:bg-tumbleweed hover:text-white
-                hover:-translate-y-1"
-                >
+                */}
+                <button className="py-3 px-6 mr-6 text-imperial-red rounded-md cursor-pointer duration-500 ease-in shadow-md bg-white hover:bg-imperial-red hover:text-white">
                   VIEW PROJECT <i className="fa fa-chevron-right"></i>
                 </button>
               </div>

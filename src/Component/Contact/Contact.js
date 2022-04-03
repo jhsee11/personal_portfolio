@@ -42,17 +42,17 @@ const Contact = () => {
   return (
     <>
       <section className="Contact" id="contact">
-        <div className="max-w-[95%] m-auto mt-20 mb-10">
-          <div className="mt-12 mb-12 text-center block">
-            <h4 className="text-flame tracking-wider font-normal text-base">
+        <div className="max-w-[95%] m-auto mt-16 mb-10">
+          <div className="mb-16 text-center block">
+            <h4 className="text-imperial-red tracking-wider font-normal text-base">
               CONTACT
             </h4>
-            <h1 className="text-5xl">Contact With Me</h1>
+            <h1 className="text-5xl text-prussian-blue">Contact With Me</h1>
           </div>
 
-          <div className="flex justify-evently">
-            <div className="w-5/12">
-              <div className="w-6/12 h-[90%] p-10 mx-auto mt-6 rounded-md text-black shadow-md shadow-flame bg-white ">
+          <div className="flex justify-around flex-col lg:flex-row">
+            <div className="w-[700px]">
+              <div className="w-6/12 h-[90%] p-10 ml-40 mt-6 rounded-md text-black shadow-md shadow-celadon-blue bg-white ">
                 <div className="img">
                   <img src={contact1} alt="" />
                 </div>
@@ -78,7 +78,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="w-6/12 h-[90%] p-10 mx-auto mt-6 mb-4 rounded-md text-black shadow-md shadow-flame bg-white">
+            <div className="w-6/12 h-[90%] p-10 ml-40 lg:ml-30 mt-6 mb-4 rounded-md text-black shadow-md shadow-celadon-blue bg-white">
               <form onSubmit={formSubmit}>
                 <div className="flex justify-between">
                   <div className="text-base w-2/5 rounded-sm">

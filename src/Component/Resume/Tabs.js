@@ -4,6 +4,34 @@ import ResumeApi from './ResumeApi';
 
 const Tabs = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
+
+  let ProgrammingSkills = [
+    { name: 'C#', level: 'Proficient' },
+    { name: 'Python', level: 'Proficient' },
+    { name: 'Javascript', level: 'Proficient' },
+    { name: 'SQL', level: 'Proficient' },
+    { name: 'Docker', level: 'Proficient' },
+    { name: 'Kubernetes', level: 'Proficient' },
+    { name: 'Openshit', level: 'Proficient' },
+    { name: 'IoT Tech', level: 'Proficient' },
+  ];
+
+  let Interests = [
+    { name: 'Travel', level: '' },
+    { name: 'Singing', level: '' },
+    { name: 'Guitar', level: '' },
+    { name: 'Jogging', level: '' },
+    { name: 'Basketball', level: '' },
+    { name: 'Badminton', level: '' },
+    { name: 'Table Tennis', level: '' },
+  ];
+
+  let Languages = [
+    { name: 'Chinise', level: 'Native' },
+    { name: 'English', level: 'Proficient' },
+    { name: 'Malay', level: 'Good' },
+  ];
+
   return (
     <>
       <div className="flex flex-wrap">
@@ -12,13 +40,13 @@ const Tabs = ({ color }) => {
             className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
             role="tablist"
           >
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
                   (openTab === 1
-                    ? 'text-white bg-' + color
-                    : 'text-black' + ' bg-turquoise')
+                    ? 'text-honeydew bg-prussian-blue'
+                    : 'text-prussian-blue' + ' bg-honeydew')
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -32,13 +60,13 @@ const Tabs = ({ color }) => {
                 Education
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
                   (openTab === 2
-                    ? 'text-white bg-' + color
-                    : 'text-black' + ' bg-turquoise')
+                    ? 'text-honeydew bg-prussian-blue'
+                    : 'text-prussian-blue' + ' bg-honeydew')
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -51,13 +79,13 @@ const Tabs = ({ color }) => {
                 <i className="fas fa-cog text-base mr-1"></i> Job Experience
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
                   (openTab === 3
-                    ? 'text-white bg-' + color
-                    : 'text-black' + ' bg-turquoise')
+                    ? 'text-honeydew bg-prussian-blue'
+                    : 'text-prussian-blue' + ' bg-honeydew')
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -71,13 +99,13 @@ const Tabs = ({ color }) => {
                 Skills
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
                   (openTab === 4
-                    ? 'text-white bg-' + color
-                    : 'text-black' + ' bg-turquoise')
+                    ? 'text-honeydew bg-prussian-blue'
+                    : 'text-prussian-blue' + ' bg-honeydew')
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -90,13 +118,13 @@ const Tabs = ({ color }) => {
                 <i className="fas fa-briefcase text-base mr-1"></i> Interests
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mb-2 mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
                   (openTab === 5
-                    ? 'text-white bg-flame'
-                    : 'text-black' + ' bg-turquoise')
+                    ? 'text-honeydew bg-prussian-blue'
+                    : 'text-prussian-blue' + ' bg-honeydew')
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -149,74 +177,44 @@ const Tabs = ({ color }) => {
                   </div>
                 </div>
                 <div className={openTab === 3 ? 'block' : 'hidden'} id="link3">
-                  <div className="shadow-md shadow-flame mt-6 mb-6 p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
+                  <div className="shadow-md shadow-celadon-blue mt-6 mb-6 p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
                     <ul className="divide-y-2">
-                      <li className="my-3  flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        C# <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Python <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        JavaScript <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        SQL <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Docker <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Kubernetes <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Openshift <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        IoT Platform <span>Level 9</span>
-                      </li>
+                      {ProgrammingSkills.map((skill) => (
+                        <li
+                          key={skill.name}
+                          className="my-3  flex justify-between rounded-md p-3 hover:bg-prussian-blue hover:text-white hover:scale-[1.02] ease-in duration-200"
+                        >
+                          {skill.name} <span>{skill.level}</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
                 <div className={openTab === 4 ? 'block' : 'hidden'} id="link4">
-                  <div className="shadow-md shadow-flame mt-6 mb-6  p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
+                  <div className="shadow-md shadow-celadon-blue mt-6 mb-6  p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
                     <ul className="divide-y-2">
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Travel <span>Level 9</span>
-                      </li>
-                      <li className="my-3  flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Singing <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Guitar <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Jogging <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Basketball <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Badminton <span>Level 9</span>
-                      </li>
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Table Tennis <span>Level 9</span>
-                      </li>
+                      {Interests.map((interest) => (
+                        <li
+                          key={interest.name}
+                          className="my-3 flex justify-between rounded-md p-3 hover:bg-prussian-blue hover:text-white hover:scale-[1.02] ease-in duration-200"
+                        >
+                          {interest.name} <span>{interest.level}</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
                 <div className={openTab === 5 ? 'block' : 'hidden'} id="link4">
-                  <div className="shadow-md shadow-flame mt-6 mb-6 p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
+                  <div className="shadow-md shadow-celadon-blue mt-6 mb-6 p-3 w-2/6 mx-auto bg-white rounded-lg shadow-lg">
                     <ul className="divide-y-2">
-                      <li className="my-3 flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Chinise <span>Level 9</span>
-                      </li>
-                      <li className="my-3  flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        English <span>Level 9</span>
-                      </li>
-                      <li className="my-3  flex justify-between rounded-md p-3 hover:bg-tumbleweed hover:scale-[1.02] ease-in duration-200">
-                        Malay <span>Level 9</span>
-                      </li>
+                      {Languages.map((language) => (
+                        <li
+                          key={language.name}
+                          className="my-3 flex justify-between rounded-md p-3 hover:bg-prussian-blue hover:text-white hover:scale-[1.02] ease-in duration-200"
+                        >
+                          {language.name} <span>{language.level}</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>

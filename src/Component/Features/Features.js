@@ -29,7 +29,7 @@ const Features = () => {
         },
       },
       {
-        breakpoint: 800,
+        breakpoint: 900,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 2,
@@ -48,14 +48,15 @@ const Features = () => {
 
   return (
     <>
-      <section>
-        <div className="features mt-12" id="features">
+      <section id="features">
+        <br />
+        <div className="features mt-16">
           <div className="max-w-[95%] m-auto">
             <div className="m-12 text-center block">
-              <h4 className="text-flame tracking-wider font-normal text-base">
+              <h4 className="text-imperial-red tracking-wider font-normal text-base">
                 Projects Experiences
               </h4>
-              <h1 className="text-5xl">What I Do</h1>
+              <h1 className="text-5xl text-prussian-blue">What I Do</h1>
             </div>
 
             <div className="m-auto w-10/12">
