@@ -52,12 +52,14 @@ const Card = (props) => {
 
       {/*------POPUP MODAL */}
       {modal && (
-        <div className="overflow-auto mt-5 mb-40 w-screen h-screen bg-white fixed top-0 right-0 bottom-0 left-0 z-[60]">
+        <div className="overflow-auto w-screen h-screen bg-white fixed top-0 right-0 bottom-0 left-0 z-[60]">
+          {/*}
           <div
             onClick={toggleModal}
             className="w-screen h-screen bg-white position fixed top-0 right-0 bottom-0 left-0 z-[60]"
           ></div>
-          <div className="position absolute z-[100] top-[12%] left-[8%] leading-6 min-w-[60%] max-w-[85%] p-12 bg-powder-blue shadow-md flex justify-between rounded-lg">
+          */}
+          <div className="position h-[80%] overflow-scroll absolute z-[100] top-[12%] left-[8%] leading-6 min-w-[60%] max-w-[85%] p-12 bg-powder-blue shadow-md flex justify-between rounded-lg">
             <div className="modal-img p-0">
               <img src={props.image} alt="" />
             </div>
