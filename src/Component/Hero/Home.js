@@ -10,7 +10,7 @@ const Home = () => {
       <section className="relative m-8" id="home">
         <div className="max-w-full flex mt-16 mr-[80px]">
           <div className="w-full mt-60 ml-6">
-            <div className="overflow-hidden absolute ">
+            <div className="w-[70%] overflow-hidden absolute">
               <h3 className="font-thin tracking-widest">WELCOME TO MY WORLD</h3>
               <h1 className="text-6xl font-bold text-prussian-blue">
                 Hi, I’m <span className="text-imperial-red">Jasper</span>
@@ -84,12 +84,12 @@ const Home = () => {
           <div className="w-[60%] relative ml-20">
             <div className="mt-[70px]">
               <img
-                className="hidden xl:block lg:w-[360px] lg:h-[500px] rounded-[30px]"
+                className="hidden ml-[300px] xl:block lg:w-[360px] lg:h-[500px] rounded-[30px]"
                 src="./seejiahao.jpg"
                 alt="personal_img"
               />
             </div>
-            <div className="mt-[120px]">
+            <div className="mt-[120px] ml-[300px]">
               <h4 className="hidden xl:block font-thin tracking-widest">
                 FAVOURITE QUOTE
               </h4>
