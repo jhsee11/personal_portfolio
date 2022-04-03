@@ -10,26 +10,31 @@ const Home = () => {
       <section className="relative m-8" id="home">
         <div className="max-w-full flex mt-16 mr-[80px]">
           <div className="w-full mt-60 ml-6">
-            <h3 className="font-thin tracking-widest">WELCOME TO MY WORLD</h3>
-            <h1 className="text-6xl font-bold text-prussian-blue">
-              Hi, I’m <span className="text-imperial-red">Jasper</span>
-            </h1>
-            <h2 className="text-6xl text-imperial-red font-bold">
-              a
-              <span className="text-prussian-blue">
-                <Typewriter
-                  words={[' Self Taught Programmer', ' Sr Software Engineer.']}
-                  loop
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                />
-              </span>
-            </h2>
+            <div className="overflow-hidden absolute ">
+              <h3 className="font-thin tracking-widest">WELCOME TO MY WORLD</h3>
+              <h1 className="text-6xl font-bold text-prussian-blue">
+                Hi, I’m <span className="text-imperial-red">Jasper</span>
+              </h1>
+              <h2 className="text-6xl text-imperial-red font-bold">
+                a
+                <span className="text-prussian-blue">
+                  <Typewriter
+                    words={[
+                      ' Self Taught Programmer',
+                      ' Sr Software Engineer.',
+                    ]}
+                    loop
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </span>
+              </h2>
+            </div>
 
-            <div className="mt-[96px] flex justify-between">
+            <div className="mt-[400px] flex justify-between">
               <div className="mt-14">
                 <h4 className="font-thin tracking-widest">FIND WITH ME</h4>
                 <span className="border-none outline-none bg-inherit">
@@ -79,12 +84,12 @@ const Home = () => {
           <div className="w-[60%] relative ml-20">
             <div className="mt-[70px]">
               <img
-                className="hidden xl:block lg:w-[320px] lg:h-[420px] rounded-[30px]"
+                className="hidden xl:block lg:w-[360px] lg:h-[500px] rounded-[30px]"
                 src="./seejiahao.jpg"
                 alt="personal_img"
               />
             </div>
-            <div className="mt-14">
+            <div className="mt-[120px]">
               <h4 className="hidden xl:block font-thin tracking-widest">
                 FAVOURITE QUOTE
               </h4>
