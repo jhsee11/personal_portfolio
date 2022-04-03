@@ -59,7 +59,7 @@ const Card = (props) => {
             className="w-screen h-screen bg-white position fixed top-0 right-0 bottom-0 left-0 z-[60]"
           ></div>
           */}
-          <div className="position h-[80%] overflow-scroll absolute z-[100] top-[12%] left-[8%] leading-6 min-w-[60%] max-w-[85%] p-12 bg-powder-blue shadow-md flex justify-between rounded-lg">
+          <div className="position h-[75%] overflow-scroll absolute z-[100] top-[12%] left-[8%] leading-6 min-w-[60%] max-w-[85%] p-12 bg-powder-blue shadow-md flex justify-between rounded-lg">
             <div className="modal-img p-0">
               <img src={props.image} alt="" />
             </div>
@@ -81,7 +81,7 @@ const Card = (props) => {
                   LIKE THIS <i className="ml-2 far fa-thumbs-up"></i>
                 </button>
                 */}
-                <button className="py-3 px-6 mr-6 text-imperial-red rounded-md cursor-pointer duration-500 ease-in shadow-md bg-white hover:bg-imperial-red hover:text-white">
+                <button className="py-3 px-6 mb-6 text-imperial-red rounded-md cursor-pointer duration-500 ease-in shadow-md bg-white hover:bg-imperial-red hover:text-white">
                   VIEW PROJECT <i className="fa fa-chevron-right"></i>
                 </button>
               </div>
