@@ -13,7 +13,7 @@ const Home = () => {
             <div className="w-[70%] overflow-hidden absolute">
               <h3 className="font-thin tracking-widest">WELCOME TO MY WORLD</h3>
               <h1 className="text-6xl font-bold text-prussian-blue">
-                Hi, I’m <span className="text-imperial-red">Jasper</span>
+                Hi, I’m <span className="text-imperial-red">Jh</span>
               </h1>
               <h2 className="text-6xl text-imperial-red font-bold">
                 a
@@ -21,7 +21,7 @@ const Home = () => {
                   <Typewriter
                     words={[
                       ' Self Taught Programmer',
-                      ' Sr Software Engineer.',
+                      ' Senior Software Engineer.',
                     ]}
                     loop
                     cursor
@@ -34,7 +34,7 @@ const Home = () => {
               </h2>
             </div>
 
-            <div className="mt-[400px] flex justify-between">
+            <div className="mt-[340px] flex justify-between">
               <div className="mt-14">
                 <h4 className="font-thin tracking-widest">FIND WITH ME</h4>
                 <span className="border-none outline-none bg-inherit">
@@ -52,7 +52,7 @@ const Home = () => {
                 </span>
                 <span className="mr-10 border-none outline-none bg-inherit">
                   <a
-                    href="https://mail.google.com/mail/u/?authuser=jhsee11@gmail.com"
+                    href="https://accounts.google.com/ServiceLogin"
                     target="_blank"
                   >
                     <button
@@ -84,7 +84,7 @@ const Home = () => {
           <div className="w-[60%] relative ml-20">
             <div className="mt-[70px]">
               <img
-                className="hidden ml-[300px] xl:block lg:w-[360px] lg:h-[500px] rounded-[30px]"
+                className="hidden ml-[320px] mt-28 xl:block lg:w-[400px] lg:h-[400px] rounded-full"
                 src="./seejiahao.jpg"
                 alt="personal_img"
               />

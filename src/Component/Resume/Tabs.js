@@ -6,18 +6,19 @@ const Tabs = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
 
   let ProgrammingSkills = [
-    { name: 'C#', level: 'Proficient' },
-    { name: 'Python', level: 'Proficient' },
-    { name: 'Javascript', level: 'Proficient' },
-    { name: 'SQL', level: 'Proficient' },
-    { name: 'Docker', level: 'Proficient' },
-    { name: 'Kubernetes', level: 'Proficient' },
-    { name: 'Openshit', level: 'Proficient' },
-    { name: 'IoT Tech', level: 'Proficient' },
+    { name: 'C#', level: '' },
+    { name: 'Python', level: '' },
+    { name: 'Javascript', level: '' },
+    { name: 'SQL', level: '' },
+    { name: 'Docker', level: '' },
+    { name: 'Kubernetes/Openshift', level: '' },
+    { name: 'IoT - PTC Thingworx', level: '' },
+    { name: 'Nifi', level: '' },
+    { name: 'MERN Stack', level: '' },
   ];
 
   let Interests = [
-    { name: 'Travel', level: '' },
+    { name: 'Travelling', level: '' },
     { name: 'Singing', level: '' },
     { name: 'Guitar', level: '' },
     { name: 'Jogging', level: '' },

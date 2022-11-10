@@ -23,6 +23,8 @@ const Portfolio = () => {
                   category={val.category}
                   title={val.title}
                   totalLike={val.totalLike}
+                  description={val.description}
+                  projectLink={val.projectLink}
                 />
               </div>
             );

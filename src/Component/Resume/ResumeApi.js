@@ -25,14 +25,14 @@ const ResumeApi = [
     category: 'experience',
     year: 'Micron Technology, 2020 - Present',
     title: 'Senior Software Engineer',
-    desc: 'Design & Review IoT Solution Architecture; Develop IoT Data Pipelines; Develop & Provide support for Smart Manufacturing Applications ',
+    desc: 'Designed & Reviewed IoT Solution Architecture; Developed IoT Data Pipelines; Developed & Provided support for Smart Manufacturing Applications ',
   },
   {
     id: 5,
     category: 'experience',
     year: 'Micron Technology, 2016 - 2020 ',
     title: 'Automation Engineer',
-    desc: 'Develop & Deployment for Automation Softwares; Server setup and planning for AMHS System; Troubleshoot & provide oncall support for automation softwares',
+    desc: 'Developed & Deployed Automation Softwares; Server setup and capacity planning for AMHS System; Troubleshooted & provided oncall support for automation softwares',
   },
   {
     id: 6,
