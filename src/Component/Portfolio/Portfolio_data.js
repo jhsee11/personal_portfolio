@@ -4,7 +4,7 @@ const Portfolio_data = [
     category: 'APPLICATION',
     totalLike: '600',
     title: 'Expense Tracker App',
-    image: './AppImage.png',
+    image: './ExpenseTracker.png',
     projectLink: 'https://github.com/jhsee11/expense_app',
     description:
       'This is a web app which can be used to record your daily spending & provide a expense summary charts by category.',
@@ -14,7 +14,7 @@ const Portfolio_data = [
     category: 'APPLICATION',
     totalLike: '600',
     title: 'Stock Intrinsic Value Calculator',
-    image: './AppImage.png',
+    image: './StockAnalysis3.png',
     projectLink: 'https://github.com/jhsee11/stock_app',
     description:
       'This is a stock intrinsic value calculator. Users will be able to see stocks price & stocks fundamental data and perform stock screen using it. \

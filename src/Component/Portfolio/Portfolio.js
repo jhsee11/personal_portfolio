@@ -4,9 +4,9 @@ import Portfolio_data from './Portfolio_data';
 
 const Portfolio = () => {
   return (
-    <section className="portfolio relative mt-20" id="portfolio">
+    <section className="portfolio" id="portfolio">
       <br />
-      <div className="max-w-[95%] mt-16 m-auto">
+      <div className="max-w-[95%] mt-16">
         <div className="m-12 text-center block">
           <h4 className="text-imperial-red tracking-wider font-normal text-base">
             VISIT MY PORTFOLIO

@@ -59,16 +59,18 @@ const Card = (props) => {
             className="w-screen h-screen bg-white position fixed top-0 right-0 bottom-0 left-0 z-[60]"
           ></div>
           */}
-          <div className="position h-[75%] w-[70%] overflow-scroll absolute z-[100] top-[12%] left-[15%] leading-6  p-12 bg-powder-blue shadow-md flex justify-between rounded-lg">
-            <div className="modal-img p-0">
-              <img src={props.image} alt="" />
+          <div className="position h-[75%] w-[80%] overflow-scroll absolute z-[100] top-[12%] left-[15%] leading-6  p-12 bg-powder-blue shadow-md  rounded-lg">
+            <div className="w-80 mx-auto mt-6">
+              <img className="" src={props.image} alt="" />
             </div>
-            <div className="ml-12 pt-2 pr-8 pb-0 pl-5">
-              <span className="text-lg underline underline-offset-4">
+            <div className="mt-10 mx-auto text-center pt-2 pr-8 pb-0 pl-5">
+              <span className="text-2xl underline underline-offset-4">
                 Project Introduction
               </span>
-              <h1 className="pt-6 pb-2 text-3xl">{props.title}</h1>
-              <p className="text-base mb-4">{props.description}</p>
+              <h1 className="mt-12 pb-2 text-2xl">{props.title}</h1>
+              <p className="text-base mb-20 mx-auto w-[80%]">
+                {props.description}
+              </p>
               <div className="flex mt-10">
                 {/*}
                 <button
@@ -78,7 +80,7 @@ const Card = (props) => {
                   LIKE THIS <i className="ml-2 far fa-thumbs-up"></i>
                 </button>
                 */}
-                <button className=" py-3 px-6 mb-6 text-imperial-red rounded-md cursor-pointer duration-500 ease-in shadow-md bg-white hover:bg-imperial-red hover:text-white">
+                <button className="mx-auto py-3 px-6 mb-6 text-imperial-red rounded-md cursor-pointer duration-500 ease-in shadow-md bg-white hover:bg-imperial-red hover:text-white">
                   <a href={props.projectLink} target="_blank">
                     VIEW PROJECT
                   </a>

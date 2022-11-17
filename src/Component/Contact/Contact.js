@@ -41,7 +41,8 @@ const Contact = () => {
   };
   return (
     <>
-      <section className="Contact relative mt-20 mb-32" id="contact">
+      <section className="Contact" id="contact">
+        <br />
         <div className="max-w-[95%] m-auto mt-16 mb-10">
           <div className="mb-16 text-center block">
             <h4 className="text-imperial-red tracking-wider font-normal text-base">

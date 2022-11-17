@@ -84,12 +84,12 @@ const Home = () => {
           <div className="w-[60%] relative ml-20">
             <div className="mt-[70px]">
               <img
-                className="hidden ml-[320px] mt-28 xl:block lg:w-[400px] lg:h-[400px] rounded-full"
+                className="hidden ml-[100px] mt-28 xl:block lg:w-[400px] lg:h-[400px] rounded-full"
                 src="./seejiahao.jpg"
                 alt="personal_img"
               />
             </div>
-            <div className="mt-[120px] ml-[300px]">
+            <div className="mt-[120px] ml-10 ">
               <h4 className="hidden xl:block font-thin tracking-widest">
                 FAVOURITE QUOTE
               </h4>
